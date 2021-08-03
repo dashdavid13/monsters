@@ -25,10 +25,10 @@ class App extends Component{
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter(monster =>
       monster.name.toLowerCase().includes(searchField.toLowerCase()))
-      console.log(test)
     return(
 
       <div>
+        <h1>Monsters Rolodex</h1>
         <Search 
           placeholder="search monsters"
           handleChange={e => this.setState({searchField: e.target.value})}
