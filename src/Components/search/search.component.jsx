@@ -5,10 +5,6 @@ import './search.styles.css'
 export const Search = ({placeholder, handleChange}) => {
 
 
-  
-
-closestNumbers([4,5,6,2,1])
-
     return(
       <>
     
