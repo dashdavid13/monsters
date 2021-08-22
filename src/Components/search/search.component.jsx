@@ -27,7 +27,7 @@ closestNumbers([4,5,6,2,1])
 
     return(
       <>
-      <button onClick={closestNumbers}>click me</button>
+    
     <div className="div-search">
       <input 
       className="search" 
